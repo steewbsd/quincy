@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f7efd766-5c7a-4817-b51f-3f1d280c1505")
+	(paper "A4")
+	(title_block
+		(date "2024-09-10")
+		(rev "0")
+		(company "Daniel Pérez")
+	)
+	(lib_symbols)
+)

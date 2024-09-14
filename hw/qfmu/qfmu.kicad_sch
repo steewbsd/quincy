@@ -14,7 +14,7 @@
 	(lib_symbols)
 	(sheet
 		(at 110.49 53.34)
-		(size 55.88 95.25)
+		(size 52.07 63.5)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.2032)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 110.49 149.2 0)
+			(at 110.49 117.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

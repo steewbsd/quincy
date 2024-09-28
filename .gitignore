@@ -13,3 +13,4 @@ fp-info-cache# Netlist files (exported from Eeschema)
 *.dsn
 *.ses
 hw/qfmu/qfmu-backups/
+*.ods#

@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Quincy FMU")
-		(date "2024-09-10")
+		(date "2024-09-28")
 		(rev "0")
-		(company "Daniel Pérez")
+		(company "Daniel Enrique Pérez Díaz")
 		(comment 1 "Flight Management Unit for the Quincy Quadcopter project.")
+		(comment 2 "Top Level Sheet")
 	)
 	(lib_symbols)
 	(wire
@@ -61,6 +62,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "DIR" input
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d540fec-d802-484d-b463-d8efa7b5ed24")
+		)
+		(pin "MOTOR_SPEED" input
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c8268d5-f6b1-4137-8f1c-96d9033d8ee0")
 		)
 		(instances
 			(project "qfmu"
@@ -137,6 +158,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "DIR" input
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d83e45a-e43f-41c7-8b28-40ea326db783")
+		)
+		(pin "MOTOR_SPEED" input
+			(at 74.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40a9d3fa-2d16-4686-8611-9b393b0aae1e")
 		)
 		(instances
 			(project "qfmu"
@@ -256,7 +297,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bd6c89c1-e57d-45b0-96e1-c4def2934617")
-		(property "Sheetname" "Sensors"
+		(property "Sheetname" "Sensors and RF"
 			(at 177.8 95.8084 0)
 			(effects
 				(font
@@ -265,7 +306,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensors.kicad_sch"
+		(property "Sheetfile" "sensors_rf.kicad_sch"
 			(at 177.8 150.4446 0)
 			(effects
 				(font
@@ -372,6 +413,26 @@
 				(justify left top)
 			)
 		)
+		(pin "DIR" input
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98f066b7-7a96-4804-b6df-52af51a4d7ce")
+		)
+		(pin "MOTOR_SPEED" input
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d325d012-432f-49ce-8a28-358c9c637a28")
+		)
 		(instances
 			(project "qfmu"
 				(path "/ce683e6e-7873-406a-bf15-47714980a4b3"
@@ -409,6 +470,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "DIR" input
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9c8565c-3a6d-462a-b37e-1d458996e085")
+		)
+		(pin "MOTOR_SPEED" input
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e40e3d54-2020-491c-bda9-b7c249b2b759")
 		)
 		(instances
 			(project "qfmu"

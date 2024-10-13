@@ -1,8 +1,11 @@
 (sym_lib_table
   (version 7)
   (lib (name "EFM32GG11B120F2048GQ64")(type "KiCad")(uri "/home/steew/Development/quincy/lib/ul_EFM32GG11B120F2048GQ64/KiCADv6/2024-09-11_19-55-35.kicad_sym")(options "")(descr ""))
-  (lib (name "IMC101TT038XUMA1")(type "KiCad")(uri "/home/steew/Development/quincy/lib/IMC101TT038XUMA1/IMC101TT038XUMA1.kicad_sym")(options "")(descr ""))
   (lib (name "TLP2366_V4_TPL_E")(type "KiCad")(uri "/home/steew/Development/quincy/lib/TLP2366_V4_TPL_E/KiCADv6/2024-09-27_17-22-46.kicad_sym")(options "")(descr ""))
   (lib (name "BQ7694202PFBR")(type "KiCad")(uri "/home/steew/Development/quincy/lib/BQ7694202PFBR/KiCADv6/2024-09-27_17-26-39.kicad_sym")(options "")(descr ""))
   (lib (name "BMI088")(type "KiCad")(uri "/home/steew/Development/quincy/lib/BMI088/BMI088.kicad_sym")(options "")(descr ""))
+  (lib (name "IMC101TT038XUMA1")(type "KiCad")(uri "/home/steew/Development/quincy/lib/IMC101TT038XUMA1/IMC101TT038XUMA1.kicad_sym")(options "")(descr ""))
+  (lib (name "MICRF219AAYQS_TR")(type "KiCad")(uri "/home/steew/Development/quincy/lib/MICRF219AAYQS_TR/KiCADv6/2024-10-06_14-57-13.kicad_sym")(options "")(descr ""))
+  (lib (name "AS179_92LF")(type "KiCad")(uri "/home/steew/Development/quincy/lib/AS179_92LF/KiCADv6/2024-10-13_11-17-15.kicad_sym")(options "")(descr ""))
+  (lib (name "MICRF113YM6")(type "KiCad")(uri "/home/steew/Development/quincy/lib/MICRF113YM6_TR/KiCADv6/2024-10-13_11-26-17.kicad_sym")(options "")(descr ""))
 )

@@ -5,9 +5,11 @@
 	(uuid "590ebb94-21ca-4fc0-89a3-80c66123486a")
 	(paper "A4")
 	(title_block
-		(date "2024-09-10")
+		(title "Quincy FMU")
+		(date "2024-09-28")
 		(rev "0")
-		(company "Daniel Pérez")
+		(company "Daniel Enrique Pérez Díaz")
+		(comment 1 "Flight Management Unit for the Quincy Quadcopter project.")
 	)
 	(lib_symbols
 		(symbol "BMI088:BMI088"

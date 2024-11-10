@@ -8,4 +8,8 @@
   (lib (name "MICRF219AAYQS_TR")(type "KiCad")(uri "/home/steew/Development/quincy/lib/MICRF219AAYQS_TR/KiCADv6/2024-10-06_14-57-13.kicad_sym")(options "")(descr ""))
   (lib (name "AS179_92LF")(type "KiCad")(uri "/home/steew/Development/quincy/lib/AS179_92LF/KiCADv6/2024-10-13_11-17-15.kicad_sym")(options "")(descr ""))
   (lib (name "MICRF113YM6")(type "KiCad")(uri "/home/steew/Development/quincy/lib/MICRF113YM6_TR/KiCADv6/2024-10-13_11-26-17.kicad_sym")(options "")(descr ""))
+  (lib (name "FCX495TA")(type "KiCad")(uri "/home/steew/Development/quincy/lib/FCX495TA/KiCADv6/2024-11-09_19-13-55.kicad_sym")(options "")(descr ""))
+  (lib (name "ITV5432L5030")(type "KiCad")(uri "/home/steew/Development/quincy/lib/ITV5432L5030WR/KiCADv6/2024-11-09_22-09-37.kicad_sym")(options "")(descr ""))
+  (lib (name "VLS5045EX-3R3N")(type "KiCad")(uri "/home/steew/Development/quincy/lib/VLS5045EX_3R3N/VLS5045EX-3R3N.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8300UDPWR")(type "KiCad")(uri "/home/steew/Development/quincy/lib/DRV8300UDPWR/KiCADv6/2024-11-10_18-03-48.kicad_sym")(options "")(descr ""))
 )

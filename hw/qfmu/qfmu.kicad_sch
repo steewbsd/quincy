@@ -15,6 +15,46 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 161.29 107.95) (xy 177.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030b5b51-000a-4bf8-9916-d9aea5d374a4")
+	)
+	(wire
+		(pts
+			(xy 161.29 54.61) (xy 177.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130a2d0d-d196-47ef-ba6d-9ebd2ba64a09")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c123c19-44f1-46ac-810d-14ed4b9e3417")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 177.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e35b6b2-ffb4-4fae-a3c6-13d21e998ecd")
+	)
+	(wire
+		(pts
 			(xy 161.29 129.54) (xy 177.8 129.54)
 		)
 		(stroke
@@ -25,6 +65,36 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 45.72) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484a188f-0e6b-434b-9684-50a8b40d2144")
+	)
+	(wire
+		(pts
+			(xy 161.29 58.42) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef543bd-da5c-477b-9463-7a731eee51a2")
+	)
+	(wire
+		(pts
+			(xy 161.29 110.49) (xy 177.8 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5325a3fc-231e-4df0-b95d-e584b00e9d48")
+	)
+	(wire
+		(pts
 			(xy 161.29 127) (xy 177.8 127)
 		)
 		(stroke
@@ -32,6 +102,46 @@
 			(type default)
 		)
 		(uuid "67c4d2d0-1cdb-4960-9b4a-1ad20c83c774")
+	)
+	(wire
+		(pts
+			(xy 161.29 43.18) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8369a197-8483-4584-b3b0-bd7bce8ea910")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 177.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fb9d8f-93c7-4096-93a1-6abfd8b026eb")
+	)
+	(wire
+		(pts
+			(xy 161.29 105.41) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3bb2c1-9c77-41db-8164-c563b0f30423")
+	)
+	(wire
+		(pts
+			(xy 161.29 118.11) (xy 177.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ee4ed2-44db-4853-b217-5e8f734fd2da")
 	)
 	(sheet
 		(at 50.8 67.31)
@@ -83,6 +193,36 @@
 			)
 			(uuid "5c8268d5-f6b1-4137-8f1c-96d9033d8ee0")
 		)
+		(pin "DUTYFREQ" input
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32621580-9c89-4148-89d5-314101ad8b5c")
+		)
+		(pin "CONT_FW_RX0" input
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e79bf41e-fff5-42b7-95f7-f93bb69433fb")
+		)
+		(pin "CONT_FW_TX0" output
+			(at 74.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "317de566-d630-48d5-84bf-0e20e71e540b")
+		)
 		(instances
 			(project "qfmu"
 				(path "/ce683e6e-7873-406a-bf15-47714980a4b3"
@@ -120,6 +260,66 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "MON_RST_SHUT" input
+			(at 177.8 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "493a192f-b439-4d2f-948d-68b319286c2e")
+		)
+		(pin "DDSG" output
+			(at 177.8 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbf33a0f-c2f5-4394-93e9-68b22d66f06e")
+		)
+		(pin "DCHG" output
+			(at 177.8 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39f78746-f190-4a4d-86ec-1bc1f0528f8b")
+		)
+		(pin "MON_SCL" output
+			(at 177.8 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0b2abc1-8026-40bc-9856-b88605fa8e47")
+		)
+		(pin "MON_ALERT" output
+			(at 177.8 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4249228b-6e57-4176-8461-62323ad0e091")
+		)
+		(pin "MON_SDA" bidirectional
+			(at 177.8 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b8abf31-322b-49b3-b519-f5d7fbcaf54c")
 		)
 		(instances
 			(project "qfmu"
@@ -179,6 +379,36 @@
 			)
 			(uuid "40a9d3fa-2d16-4686-8611-9b393b0aae1e")
 		)
+		(pin "DUTYFREQ" input
+			(at 74.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7671086d-e1a3-442d-b4b8-09627ad5f0e7")
+		)
+		(pin "CONT_FW_RX0" input
+			(at 74.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4d9a0a1-9324-46a3-b2e8-89ebfb74ffc1")
+		)
+		(pin "CONT_FW_TX0" output
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95a6847c-9975-45d4-a557-e0ec24569f12")
+		)
 		(instances
 			(project "qfmu"
 				(path "/ce683e6e-7873-406a-bf15-47714980a4b3"
@@ -218,7 +448,7 @@
 			)
 		)
 		(pin "SPI_CLK" output
-			(at 161.29 101.6 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +458,7 @@
 			(uuid "c8d6c6f6-4d78-4f58-90b8-3bf2bcf4fa04")
 		)
 		(pin "SPI_MISO" input
-			(at 161.29 106.68 0)
+			(at 161.29 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +468,7 @@
 			(uuid "291de226-2889-4778-8205-e24b10cff16a")
 		)
 		(pin "SPI_MOSI" output
-			(at 161.29 104.14 0)
+			(at 161.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,7 +478,7 @@
 			(uuid "ae562f07-fff4-4ff5-9233-0de1d423ff20")
 		)
 		(pin "SPI_CS" output
-			(at 161.29 110.49 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,6 +506,116 @@
 				(justify right)
 			)
 			(uuid "0fdb8ea3-d09d-4de7-9ba8-be07606e6ce3")
+		)
+		(pin "MON_RST_SHUT" input
+			(at 161.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d59e77fa-e832-4efc-ae89-e9db3e0e98cb")
+		)
+		(pin "DDSG" input
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f8bc781-b94d-47e6-b1cb-409506229afc")
+		)
+		(pin "DCHG" input
+			(at 161.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5ff2211-a2c7-49a2-8945-686102818658")
+		)
+		(pin "MON_SCL" output
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9bdabe29-98eb-4c79-9ad5-8c0844ccd476")
+		)
+		(pin "MON_SDA" bidirectional
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49fcc7b9-0ac1-4bed-87c0-6c9a54d18662")
+		)
+		(pin "MON_ALERT" bidirectional
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e9431fa-0466-4290-8f3b-db97fece15d6")
+		)
+		(pin "RF_DEMOD" input
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "66cd7969-398e-4e03-92d9-0cf84754eb2c")
+		)
+		(pin "TX_ASK" output
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e1d03cd-9f71-47a5-ba06-f14b6eb3afc3")
+		)
+		(pin "ANT_MODE" output
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c14aec25-c6f3-4794-a269-2756959cef96")
+		)
+		(pin "IMU_INT_AC1" input
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d554df9c-b00f-46f1-bed9-28193616b6f9")
+		)
+		(pin "IMU_INT_GY1" input
+			(at 161.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a634e162-3c17-45a6-aa05-a076ad7b881c")
 		)
 		(instances
 			(project "qfmu"
@@ -335,26 +675,6 @@
 			)
 			(uuid "138a0dba-7425-4064-abd0-9f6d5563636d")
 		)
-		(pin "IMU_INT_AC2" output
-			(at 177.8 120.65 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "43147a15-9a63-4d61-87bb-b5529ac6ebc4")
-		)
-		(pin "IMU_INT_GY2" output
-			(at 177.8 123.19 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "faf943d7-22f3-438b-8924-2adac687b069")
-		)
 		(pin "M_SDA" bidirectional
 			(at 177.8 127 180)
 			(effects
@@ -374,6 +694,36 @@
 				(justify left)
 			)
 			(uuid "bdbac86c-5bce-44b8-8b53-9b47d476bc1f")
+		)
+		(pin "RF_DEMOD" output
+			(at 177.8 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e22d76e1-d585-4b9c-83dd-d4aa9c5713f8")
+		)
+		(pin "TX_ASK" input
+			(at 177.8 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36fa2b6d-1852-4fdf-8866-a0a181787522")
+		)
+		(pin "ANT_MODE" input
+			(at 177.8 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aedaafaa-a896-414f-a26e-c443b0a0bad5")
 		)
 		(instances
 			(project "qfmu"
@@ -433,6 +783,36 @@
 			)
 			(uuid "d325d012-432f-49ce-8a28-358c9c637a28")
 		)
+		(pin "DUTYFREQ" input
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc76c3f1-746d-454e-9aac-afecf19828a0")
+		)
+		(pin "CONT_FW_RX0" input
+			(at 74.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c4a39bc-5a19-4c1f-8a86-23af6d3ed0cf")
+		)
+		(pin "CONT_FW_TX0" output
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c7b2858-ad80-495b-a552-8ce0dfa45233")
+		)
 		(instances
 			(project "qfmu"
 				(path "/ce683e6e-7873-406a-bf15-47714980a4b3"
@@ -490,6 +870,36 @@
 				(justify right)
 			)
 			(uuid "e40e3d54-2020-491c-bda9-b7c249b2b759")
+		)
+		(pin "DUTYFREQ" input
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39faf212-9e68-40a1-9b15-0ee9a3cbd728")
+		)
+		(pin "CONT_FW_RX0" input
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9c69178-ec04-437c-b22a-7b43ef3d86da")
+		)
+		(pin "CONT_FW_TX0" output
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a7686d1-d4f9-428d-81cf-6bba24b3ff5a")
 		)
 		(instances
 			(project "qfmu"

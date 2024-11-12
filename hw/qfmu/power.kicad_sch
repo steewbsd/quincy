@@ -3916,7 +3916,7 @@
 		(uuid "346bc163-a63c-476e-9235-108a73e23ebb")
 	)
 	(no_connect
-		(at 161.29 137.16)
+		(at 161.29 138.43)
 		(uuid "4baf81e3-554d-4fb5-8731-4a8c89abb888")
 	)
 	(no_connect
@@ -9476,6 +9476,81 @@
 		)
 	)
 	(symbol
+		(lib_id "ITV5432L5030:ITV5432L5030WR")
+		(at 97.79 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb19638-9af9-47b0-aa51-5c683b20d5d4")
+		(property "Reference" "FUSE1"
+			(at 116.84 33.0199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ITV5432L5030WR"
+			(at 116.84 35.5599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "QFN4_ITV5432_LTF"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ITV5432L5030WR"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a21705e4-629a-40ef-a6a5-97efdcb6b527")
+		)
+		(pin "2"
+			(uuid "c87249db-1799-470c-b255-4c8e893a2501")
+		)
+		(pin "3"
+			(uuid "f7558f39-c57e-4f32-b3da-818f757fda5e")
+		)
+		(instances
+			(project ""
+				(path "/ce683e6e-7873-406a-bf15-47714980a4b3/4c8652b6-b347-476a-a7b2-7473c68247e5"
+					(reference "FUSE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 39.37 0)
 		(unit 1)
@@ -9944,81 +10019,6 @@
 			(project ""
 				(path "/ce683e6e-7873-406a-bf15-47714980a4b3/4c8652b6-b347-476a-a7b2-7473c68247e5"
 					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ITV5432L5030:ITV5432L5030WR")
-		(at 97.79 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a16180eb-7ae2-4e65-b11b-fd662e78a125")
-		(property "Reference" "FUSE1"
-			(at 116.84 33.0199 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ITV5432L1230WR"
-			(at 116.84 35.5599 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "QFN4_ITV5432_LTF"
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ITV5432L5030WR"
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2e9e22f2-0809-4322-aae5-0b01e080f23b")
-		)
-		(pin "2"
-			(uuid "5cad47e2-f42d-468e-9d2e-248eb0e3d9e0")
-		)
-		(pin "1"
-			(uuid "3928bd68-541a-4dec-8b14-74c0a1ab0ff6")
-		)
-		(instances
-			(project ""
-				(path "/ce683e6e-7873-406a-bf15-47714980a4b3/4c8652b6-b347-476a-a7b2-7473c68247e5"
-					(reference "FUSE1")
 					(unit 1)
 				)
 			)

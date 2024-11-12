@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMT49406GLPTR
+D Three-Phase FOC BLDC Motor Controller
+K
+F https://www.allegromicro.com/-/media/Files/Datasheets/AMT49406-Datasheet.ashx
+$ENDCMP
+#
+#End Doc Library

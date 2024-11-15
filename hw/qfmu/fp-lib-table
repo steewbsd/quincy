@@ -1,7 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "EFM32GG11B120F")(type "KiCad")(uri "/home/steew/Development/quincy/lib/ul_EFM32GG11B120F2048GQ64/KiCADv6/footprints.pretty")(options "")(descr ""))
-  (lib (name "VLS5045EX_3R3N")(type "KiCad")(uri "/home/steew/Development/quincy/lib/VLS5045EX_3R3N")(options "")(descr ""))
   (lib (name "TLP2366")(type "KiCad")(uri "/home/steew/Development/quincy/lib/TLP2366_V4_TPL_E/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "MICRF219")(type "KiCad")(uri "/home/steew/Development/quincy/lib/MICRF219AAYQS_TR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "MICRF113")(type "KiCad")(uri "/home/steew/Development/quincy/lib/MICRF113YM6_TR/KiCADv6/footprints.pretty")(options "")(descr ""))
@@ -13,4 +12,5 @@
   (lib (name "BMI088")(type "KiCad")(uri "/home/steew/Development/quincy/lib/BMI088")(options "")(descr ""))
   (lib (name "AS179_92LF")(type "KiCad")(uri "/home/steew/Development/quincy/lib/AS179_92LF/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "AMT49406GLPTR")(type "KiCad")(uri "/home/steew/Development/quincy/lib/AMT49406GLPTR")(options "")(descr ""))
+  (lib (name "VLS5045EX_3R3N")(type "KiCad")(uri "/home/steew/Development/quincy/lib/VLS5045EX_3R3N")(options "")(descr ""))
 )

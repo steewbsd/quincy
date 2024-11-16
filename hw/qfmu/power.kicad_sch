@@ -1005,6 +1005,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers hide)
 			(pin_names
@@ -3842,6 +3944,12 @@
 		(uuid "b88f3e47-c53d-4af5-ba4c-49252b0c50ca")
 	)
 	(junction
+		(at 210.82 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf4c3d80-3a54-43e8-948d-fdbadc79cf3d")
+	)
+	(junction
 		(at 219.71 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4642,6 +4750,16 @@
 			(type default)
 		)
 		(uuid "65c66eca-30ba-4d2b-98e7-ff9908090550")
+	)
+	(wire
+		(pts
+			(xy 210.82 36.83) (xy 210.82 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663ec7a4-b523-4115-8259-20f7f35f8632")
 	)
 	(wire
 		(pts
@@ -5492,6 +5610,16 @@
 			(type default)
 		)
 		(uuid "de809892-7f50-47bd-a49b-20397b5b2d4d")
+	)
+	(wire
+		(pts
+			(xy 210.82 36.83) (xy 215.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de93ad48-c5c0-449a-9970-b2a8777181d3")
 	)
 	(wire
 		(pts
@@ -6698,7 +6826,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 210.82 40.64 0)
+		(at 210.82 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6706,7 +6834,7 @@
 		(dnp no)
 		(uuid "0d5a2f17-1dda-43b5-bc4a-af2fb896f8ee")
 		(property "Reference" "#PWR024"
-			(at 210.82 44.45 0)
+			(at 210.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6843,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 210.82 36.322 0)
+			(at 210.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 40.64 0)
+			(at 210.82 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 40.64 0)
+			(at 210.82 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 210.82 40.64 0)
+			(at 210.82 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,6 +8781,73 @@
 			(project "qfmu"
 				(path "/ce683e6e-7873-406a-bf15-47714980a4b3/4c8652b6-b347-476a-a7b2-7473c68247e5"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fa36217-a891-40e9-ac3c-576102cbb7bc")
+		(property "Reference" "PWRIN1"
+			(at 214.63 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 217.9321 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f25b06b-72dc-45f4-a18d-918be923ca46")
+		)
+		(instances
+			(project "qfmu"
+				(path "/ce683e6e-7873-406a-bf15-47714980a4b3/4c8652b6-b347-476a-a7b2-7473c68247e5"
+					(reference "PWRIN1")
 					(unit 1)
 				)
 			)
